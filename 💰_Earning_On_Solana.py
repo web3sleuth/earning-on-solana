@@ -67,7 +67,7 @@ st.markdown(f"<h1 style='font-size:22px;text-align:left;'><a href='https://deans
 st.markdown("""
 Dean's List enables people from around the world to work and earn using Web3 in the most decentralized way, on the Solana blockchain.
 
-To unlock all these earning opportunities,  a Dean's List NFT is required, which is pretty rare these days. But not to worry, Dean's List has a [Business Visa program](https://visa.deanslist.services/) which allows anyone to apply for a 30 day trial to earn their way to an NFT.
+To unlock all these earning opportunities,  a Dean's List NFT is required, which is pretty rare these days. But not to worry, Dean's List offers a [Business Visa program](https://visa.deanslist.services/) which allows anyone to apply for a 30 day trial to earn their way to an NFT.
 """)
 
 
