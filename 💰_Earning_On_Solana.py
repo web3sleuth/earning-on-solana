@@ -168,8 +168,7 @@ st.header("Grants & Hackathons 🏆")
 st.info('Secure funding through grants and showcase your skills in hackathons to earn rewards.', icon="ℹ️")
 
 st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://x.com/0xmert_/status/1749198288513863700?s=46">Solana Scribes</a></h1>', unsafe_allow_html=True)
-st.markdown("""
-First-ever Solana hackathon for written content only.
+st.markdown("First-ever Solana hackathon for written content only.")
 
 st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://solana.com/hackathon">Solana Hackathons</a></h1>', unsafe_allow_html=True)
 
@@ -178,7 +177,6 @@ st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://www.e
 st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://solana.org/grants">Solana Grants</a></h1>', unsafe_allow_html=True)
 
 st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://li4rhd691jg.typeform.com/to/DOPVAt16">Dean’s list DecentraGrants</a></h1>', unsafe_allow_html=True)
-""")
 
 st.header("Jobs 💼")
 st.info('Traditional employment opportunities across a wide range of web3 companies and start-ups.', icon="ℹ️")
