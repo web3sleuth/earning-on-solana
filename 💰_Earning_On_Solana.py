@@ -49,7 +49,7 @@ st.warning('Your one-stop hub for earning in the Solana ecosystem! Discover dive
 
 
 st.header("General 🌐")
-st.info('Diverse earning opportunities encompassing content creation, design, development, analysis, social media, translations, developer bounties, and more.', icon="ℹ️")
+st.info('Diverse earning opportunities encompassing content creation, design, development, analysis, translations, and more.', icon="ℹ️")
 
 st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://earn.superteam.fun">Superteam Earn</a></h1>', unsafe_allow_html=True)
 st.markdown("""
