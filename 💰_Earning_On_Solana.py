@@ -48,8 +48,8 @@ colored_header(
 st.warning('Your one-stop hub for earning in the Solana ecosystem! Discover diverse opportunities effortlessly. Explore now! 💰🚀')
 
 
-st.header("General")
-st.info('', icon="ℹ️")
+st.header("General 🌐")
+st.info('Diverse earning opportunities encompassing content creation, design, development, analysis, social media, translations, developer bounties, and more.', icon="ℹ️")
 
 st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://earn.superteam.fun">Superteam Earn</a></h1>', unsafe_allow_html=True)
 st.markdown("""
@@ -71,8 +71,8 @@ To unlock all these earning opportunities,  a Dean's List NFT is required, which
 """)
 
 
-st.header("DePIN")
-st.info('', icon="ℹ️")
+st.header("DePIN 🏗️")
+st.info('Decentralized Physical Infrastructure Networks: earn crypto tokens through open, decentralized platforms for real-world infrastructure development.', icon="ℹ️")
 
 st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://hivemapper.com/contribute">Hivemapper</a></h1>', unsafe_allow_html=True)
 st.markdown("""
@@ -89,8 +89,8 @@ st.markdown("""
 Helium enables distributed node runners to generate revenue by hosting dedicated hotspots from their homes or businesses to provide mobile connectivity to nearby users.
 """)
 
-st.header("Quests & Campaigns")
-st.info('', icon="ℹ️")
+st.header("Quests & Campaigns 📣")
+st.info('Engage in rewarding quests and promotional activities to earn crypto tokens.', icon="ℹ️")
 
 st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://beta.dequest.io/quests/">DeQuest</a></h1>', unsafe_allow_html=True)
 st.markdown("""
@@ -108,8 +108,8 @@ You can earn rewards while exploring the Solana Ecosystem with OKX. Explore diff
 """)
 
 
-st.header("GameFi") #(Move to earn, Play to earn)
-st.info('', icon="ℹ️")
+st.header("GameFi 🕹️")
+st.info('Explore the intersection of gaming and finance, earning through in-game activities.', icon="ℹ️")
 
 st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://www.genopets.me/">Genopets</a></h1>', unsafe_allow_html=True)
 st.markdown("""
@@ -138,16 +138,16 @@ st.markdown("""
 DeFi Land is a unique agriculture-simulation game created to gamify all aspects of decentralized finance. With specific NFTs players earn tokens for performing in-game activities like fishing, shooting, harvesting crops, and taking care of animals.
 """)
 
-st.header("Analytics")
-st.info('', icon="ℹ️")
+st.header("Analytics 📈")
+st.info('Monetize your analytical skills by participating in data analysis tasks and insights-driven projects.', icon="ℹ️")
 
 st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://docs.flipsidecrypto.com/earn/analyst-rewards/top-30-dashboard-rewards">FlipsideCrypto Top 30</a></h1>', unsafe_allow_html=True)
 st.markdown("""
 Analyze Solana or other blockchain data on the Flipside app, publish and promote them, and if your dashboard spends time in the Top 30 trending dashboards you get paid by the hour.
 """)
 
-st.header("Writing")
-st.info('', icon="ℹ️")
+st.header("Writing ✍️")
+st.info('Earn through your writing prowess, contributing content across various genres.', icon="ℹ️")
 
 st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://www.bulbapp.io/write-to-earn">BULB</a></h1>', unsafe_allow_html=True)
 st.markdown("""
@@ -156,16 +156,20 @@ BULB is a Web3 blogging platform with a unique 'Do-to-Earn' engagement model whi
 'BULBers' earn points for writing and engagement, and are rewarded with BULB tokens from the reward pool in proportion to their collected BULB points.
 """)
 
-st.header("Music")
-st.info('', icon="ℹ️")
+st.header("Music 🎵")
+st.info('Monetize your musical talent through music publishing, earning royalties and recognition for your compositions.', icon="ℹ️")
 
 st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://www.ninaprotocol.com/">Nina Protocol</a></h1>', unsafe_allow_html=True)
 st.markdown("""
 Nina protocol is a platform with a decentralized file-distribution and tokenized ownership model, where independent artists can publish their music and always receive 100% of their sales given Nina takes no fees.
 """)
 
-st.header("Grants & Hackathons")
-st.info('', icon="ℹ️")
+st.header("Grants & Hackathons 🏆")
+st.info('Secure funding through grants and showcase your skills in hackathons to earn rewards.', icon="ℹ️")
+
+st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://x.com/0xmert_/status/1749198288513863700?s=46">Solana Scribes</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+First-ever Solana hackathon for written content only.
 
 st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://solana.com/hackathon">Solana Hackathons</a></h1>', unsafe_allow_html=True)
 
@@ -174,14 +178,10 @@ st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://www.e
 st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://solana.org/grants">Solana Grants</a></h1>', unsafe_allow_html=True)
 
 st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://li4rhd691jg.typeform.com/to/DOPVAt16">Dean’s list DecentraGrants</a></h1>', unsafe_allow_html=True)
-
-st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://x.com/0xmert_/status/1749198288513863700?s=46">Solana Scribes</a></h1>', unsafe_allow_html=True)
-st.markdown("""
-First-ever Solana hackathon for written content only.
 """)
 
-st.header("Jobs")
-st.info('', icon="ℹ️")
+st.header("Jobs 💼")
+st.info('Traditional employment opportunities across a wide range of web3 companies and start-ups.', icon="ℹ️")
 
 st.markdown(f'<h1 style="font-size:22px;text-align:left;"><a href="https://jobs.solana.com/jobs">Solana Job Board</a></h1>', unsafe_allow_html=True)
 
