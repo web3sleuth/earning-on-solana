@@ -1,6 +1,8 @@
 import streamlit as st
 from streamlit_extras.colored_header import colored_header
 
+st.cache_data.clear()
+
 st.set_page_config(
     page_title="Earning On Solana",
     page_icon=None,
