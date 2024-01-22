@@ -36,12 +36,153 @@ div[data-testid="metric-container"] > label[data-testid="stMetricLabel"] > div {
             , unsafe_allow_html=True)
 
 st.markdown(f'<h1 style="color:#434346;font-size:60px;text-align:center;">{"Earning On Solana"}</h1>', unsafe_allow_html=True)
+
 colored_header(
     label="",
     description="",
     color_name="gray-70",
 )
 
-text_1 = '<p style="font-family:sans-serif; color:#4d372c; font-size: 20px;">Uniswap has consistently maintained its position as a market leader since the launch of its V1 contract on the Ethereum mainnet in November 2018. In the ever-changing crypto market, staying at the forefront is not guaranteed; sustaining a leading position requires continuous effort, especially with the emergence of new contenders. The focus of this dashboard is to scrutinize Uniswap\'s performance in relation to its competitors, placing particular emphasis on key metrics such as trading volume, total value locked (TVL), and transaction volume.</p>'
-st.markdown(text_1, unsafe_allow_html=True)
+st.warning('Your one-stop hub for earning in the Solana ecosystem! Discover diverse opportunities effortlessly. Explore now! 💰🚀')
 
+
+st.header("General")
+st.info('', icon="ℹ️")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://earn.superteam.fun">Superteam Earn</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+Superteam Earn helps talent contribute to crypto projects through bounties and freelance gigs, in exchange for earning in crypto. Earning opportunities cut across content creation, design, development and analysis.
+""")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://www.stepdao.org/bounties">StepDAO Bounties</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+StepDAO rewards active members within the Step community as well as users of the larger Solana ecosystem with $STEP tokens for completing bounties.
+
+StepDAO offers a range of bounties across various categories, including Social Media, Translations, Developer Bounties, and Content Creation.
+""")
+
+st.markdown(f"<h1 style='font-size:30px;text-align:left;'><a href='https://deanslist.services/'>DEAN\'s List</a></h1>", unsafe_allow_html=True)
+st.markdown("""
+Dean's List enables people from around the world to work and earn using Web3 in the most decentralized way, on the Solana blockchain.
+
+To unlock all these earning opportunities,  a Dean's List NFT is required, which is pretty rare these days. But not to worry, Dean's List has a [Business Visa program](https://visa.deanslist.services/) which allows anyone to apply for a 30 day trial to earn their way to an NFT.
+""")
+
+
+st.header("DePIN")
+st.info('', icon="ℹ️")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://hivemapper.com/contribute">Hivemapper</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+Hivemapper offers its $HONEY tokens to drivers who install a dashcam and collect mapping data as they drive around.
+""")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://know.rendernetwork.com/getting-started/what-role-am-i">Render Network</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+Render allows anyone with excess GPU power to connect their hardware to its protocol and earn $RNDR by providing computing power for customer use cases such as machine learning training.
+""")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://www.helium.com/mine">Helium</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+Helium enables distributed node runners to generate revenue by hosting dedicated hotspots from their homes or businesses to provide mobile connectivity to nearby users.
+""")
+
+st.header("Quests & Campaigns")
+st.info('', icon="ℹ️")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://beta.dequest.io/quests/">DeQuest</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+Users can discover new games or learn skills by fulfilling quests or using new protocols - and get paid for that in crypto.
+""")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://taskon.xyz/">TaskOn</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+TaskOn is a Web3 platform that brings users various web3 tasks in the form of reward campaigns, and rewards them with crypto on completion.
+""")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://www.okx.com/campaigns/solana-super-season">OKX Web3 Solana Super Season</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+You can earn rewards while exploring the Solana Ecosystem with OKX. Explore different DApps and protocols and become a true SOL Maxi! The first wave has 120k USDT up for grabs.
+""")
+
+
+st.header("GameFi") #(Move to earn, Play to earn)
+st.info('', icon="ℹ️")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://www.genopets.me/">Genopets</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+Genopets is a Web3 game that operates on a Move-To-Earn model, rewarding users with cryptocurrencies based on their physical activity.
+
+You can also interact with other users, join quests, compete in battles, and participate in events for even more rewards.
+""")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://www.stepn.com/">StepN</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+StepN is a Game-Fi project, where players with StepN NFTs can earn tokens through walking, jogging or running outdoors.
+""")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://aurory.io/">Aurory</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+Aurory is a web3 game on Solana where active players can earn $AURY tokens, based on their in-game performance.
+""")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://ev.io/">ev.io</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+ev.io is a first-person shooter game built on Solana which allows you to earn Solana for every kill. Players can use ev.io NFTs to upgrade weapons and player skins to increase earning power.
+""")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://play.defiland.app/">Defi Land</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+DeFi Land is a unique agriculture-simulation game created to gamify all aspects of decentralized finance. With specific NFTs players earn tokens for performing in-game activities like fishing, shooting, harvesting crops, and taking care of animals.
+""")
+
+st.header("Analytics")
+st.info('', icon="ℹ️")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://docs.flipsidecrypto.com/earn/analyst-rewards/top-30-dashboard-rewards">FlipsideCrypto Top 30</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+Analyze Solana or other blockchain data on the Flipside app, publish and promote them, and if your dashboard spends time in the Top 30 trending dashboards you get paid by the hour.
+""")
+
+st.header("Writing")
+st.info('', icon="ℹ️")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://www.bulbapp.io/write-to-earn">BULB</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+BULB is a Web3 blogging platform with a unique 'Do-to-Earn' engagement model which incentivises writers and readers with tokens.
+
+'BULBers' earn points for writing and engagement, and are rewarded with BULB tokens from the reward pool in proportion to their collected BULB points.
+""")
+
+st.header("Music")
+st.info('', icon="ℹ️")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://www.ninaprotocol.com/">Nina Protocol</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+Nina protocol is a platform with a decentralized file-distribution and tokenized ownership model, where independent artists can publish their music and always receive 100% of their sales given Nina takes no fees.
+""")
+
+st.header("Grants & Hackathons")
+st.info('', icon="ℹ️")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://solana.com/hackathon">Solana Hackathons</a></h1>', unsafe_allow_html=True)
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://www.encode.club/encodesolanahack">Encode Club Solana Hackathon</a></h1>', unsafe_allow_html=True)
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://solana.org/grants">Solana Grants</a></h1>', unsafe_allow_html=True)
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://li4rhd691jg.typeform.com/to/DOPVAt16">Dean’s list DecentraGrants</a></h1>', unsafe_allow_html=True)
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://x.com/0xmert_/status/1749198288513863700?s=46">Solana Scribes</a></h1>', unsafe_allow_html=True)
+st.markdown("""
+First-ever Solana hackathon for written content only.
+""")
+
+st.header("Jobs")
+st.info('', icon="ℹ️")
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://jobs.solana.com/jobs">Solana Job Board</a></h1>', unsafe_allow_html=True)
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://cryptojobslist.com/solana">Crypto Jobs List - Solana</a></h1>', unsafe_allow_html=True)
+
+st.markdown(f'<h1 style="font-size:30px;text-align:left;"><a href="https://rethinkable.xyz/jobs">Rethinkable Jobs</a></h1>', unsafe_allow_html=True)
