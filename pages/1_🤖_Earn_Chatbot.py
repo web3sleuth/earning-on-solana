@@ -62,7 +62,7 @@ def load_data():
     with st.spinner(text="Loading and indexing my 'Earning On Solana' knowledge – hang tight! This should take 1 minute."):
         reader = SimpleDirectoryReader(input_dir="./data")
         docs = reader.load_data()
-        service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-3.5-turbo", temperature=0.5, system_prompt="You are a personalized career advisor Chatbot focused on optimizing earning opportunities on the Solana blockchain. Users will share their skills, interests, and preferences, and your task is to guide them towards the most relevant earning opportunities within the Solana ecosystem. Keep your responses tailored to the user's input and provide insights that align with their unique skillset and preferences. Avoid generic or unrelated information."))
+        service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-3.5-turbo", temperature=0.5, system_prompt="You are a personalized career advisor Chatbot focused on recommending earning opportunities across the Solana blockchain. Users will share their skills, interests, and preferences, and your task is to recommend relevant earning platforms, the platform's website, and a very short insight into why the user's skill set matches the platform. Keep your responses tailored to the user's input and provide insights that align with their unique skillset and preferences. Avoid generic or unrelated information and be very concise."))
         index = VectorStoreIndex.from_documents(docs, service_context=service_context)
         return index
 
