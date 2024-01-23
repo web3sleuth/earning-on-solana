@@ -1,4 +1,4 @@
-# Earning opportunities across Solana
+# Earning opportunities across Solana, a comprehensive document to be used to recommend earning opportunities to users based on their skills and preferences.
 
 
 ## Superteam Earn
